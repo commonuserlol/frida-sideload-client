@@ -21,7 +21,11 @@ async function main() {
 }
 main();
 ```
-Note: on Android cache path should be `/data/user/0/com.app.packagename/files/cached.bin`<br>
-
+Note: on Android cache path should be `/data/user/0/com.app.packagename/files/cached.bin`<br
 4. Compile with esbuild using `npx esbuild --bundle index.ts --outfile=index.js`
 5. Inject `index.js` with frida-gadget into target
+
+# License
+This project is licensed under two licenses:
+* **GNU AGPLv3 only** for the client (this is a module, you can use it for commercial purposes if you do not change the module code)
+* **MIT** for the server (this is not a module)
