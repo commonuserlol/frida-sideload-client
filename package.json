@@ -1,0 +1,22 @@
+{
+  "name": "frida-sideload",
+  "version": "1.0.0",
+  "description": "Frida sideload client part",
+  "exports": "./dist/client.js",
+  "module": "dist/client.js",
+  "main": "dist/client.js",
+  "type": "module",
+  "types": "dist/client.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "prepare": "tsc"
+  },
+
+  "dependencies": {
+    "@types/frida-gum": "^18.5.1",
+    "bytestream.ts": "github:commonuserlol/bytestream.ts",
+    "lz4ts": "github:commonuserlol/lz4ts"
+  }
+}

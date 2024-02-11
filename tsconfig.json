@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "target": "ES2020",
+        "lib": ["ES2022"],
+        "moduleResolution": "node",
+        "declaration": true,
+        "strict": true,
+        "strictPropertyInitialization": false,
+        "stripInternal": true,
+        "sourceMap": true,
+        "sourceRoot": ".",
+        "outDir": "./dist",
+    }
+}
