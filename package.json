@@ -13,10 +13,13 @@
   "scripts": {
     "prepare": "tsc"
   },
-
   "dependencies": {
+    "@noble/ciphers": "^0.5.1",
+    "@polkadot/x-textdecoder": "^12.6.2",
+    "@polkadot/x-textencoder": "^12.6.2",
     "@types/frida-gum": "^18.5.1",
     "bytestream.ts": "github:commonuserlol/bytestream.ts",
-    "lz4ts": "github:commonuserlol/lz4ts"
+    "lz4ts": "github:commonuserlol/lz4ts",
+    "polyfill-crypto.getrandomvalues": "^1.0.0"
   }
 }
