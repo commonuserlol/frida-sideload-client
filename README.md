@@ -1,3 +1,5 @@
+**USE FRIDA PORTAL INSTEAD**<br>
+
 # frida-sideload-client
 Load your script from remote server
 
